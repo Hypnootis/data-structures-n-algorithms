@@ -1,0 +1,3 @@
+1. Implement a singly-linked list (only head reference). The list can contain any type of items; use generic type T for the list item. 
+
+2. Implement a doubly-linked list (head and tail reference). The list can contain any type of items; use generic type T for the list item. 

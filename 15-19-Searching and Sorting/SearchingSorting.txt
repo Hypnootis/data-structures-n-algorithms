@@ -1,0 +1,9 @@
+1. a) Implement iterative sequential search for an unsorted array. See slides.
+b) Implement recursive sequential search for an unsorted array.
+c) Test and compare the execution times of both for an array of 10 000 elements. 
+
+2. a) Implement recursive binary search for a sorted array. See slides.
+b) Create a test program to compare the execution times of your own implementation and the Java class library implementation of binary search (Arrays.binarySearch).
+
+3. a) The ExerciseMaterials folder contains ready-made implementations of the sorting algorithms listed below. It also contains a Name class and a NameInterface. Add all of these files into your project. Write a driver class that creates an array of Names and utilizes the given algorithm implementations to sort the array. Compare the execution times of the iterative selection sort, insertion sort, shell sort, bubble sort, merge sorta and heap sort algorithms.
+b) As instructed above create a test program to compare the execution times of the given implementations of the recursive selection sort, insertion sort, bubble sort, merge sort and quick sort algorithms.

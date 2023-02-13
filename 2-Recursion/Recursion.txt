@@ -1,0 +1,7 @@
+1 a) Write a function that calculates the n:th item in the Fibonacci series/sequence using a loop structure. Write another function that calculates the n:th item in the Fibonacci series/sequence using recursion.  Write a main method to go with the functions. 
+
+b) Measure the execution times of iterative and recursive solutions for fibonacci 40. Notice: use double type for the fibonacci result, the value range of any primitive integer type is too limited.
+
+2) a) Write a function that calculates the factorial of n using recursion. Write another function that does the same using iteration. 
+
+b) Measure the execution times of iterative and recursive solutions for factorial of 40. Notice: use double type for the factorial result, the value range of any primitive integer type is too limited.

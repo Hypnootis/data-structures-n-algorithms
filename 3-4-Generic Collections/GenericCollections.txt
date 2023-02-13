@@ -1,0 +1,11 @@
+0. Write a program that stores 25 random integer values in a LinkedList. Sort the list and print the values. Calculate and print the average of values.
+
+1. Write a program that reads a series of first names and eliminates duplicates by storing them in a set. Allow the user to search for a name. 
+
+2. Write a program that determines and prints the number of duplicate words in a sentence. Treat upppercase and lowercase letters the same. Ignore punctuation. 
+
+3. Write a program that has a method ListConcatanate which receives two objects of LinkedList, and return a new LinkedList that contains the elements of the first list followed by elements of the second list. In the main method, test this method on two LinkedList of strings. 
+
+4. Write a program that uses a String method split to tokenize a line of text input by the user and places each token in a TreeSet. Print the elements of the TreeSet. (This should cause the elements to be printed in ascending sorted order.) 
+
+5. Create a class that mixes two LinkedLists of numbers. Your class should include a static method mixList that takes the references of two LinkesLists as arguments and inserts the numbers in the second list into the first list at alternate positions. For example, if the first list has 3,1,7,4 and the second list has 5,6,0,8, then the first list should become 3,5,1,6,7,0,4,8. 
