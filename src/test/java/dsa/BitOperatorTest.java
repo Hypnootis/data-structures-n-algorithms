@@ -8,12 +8,12 @@ class BitOperatorTest {
 	
 	@Test
 	void testCountBits() {
-		assertEquals(1, BitOperator.countSetBits(2));
-		assertEquals(1, BitOperator.countSetBits(1));
-		assertEquals(1, BitOperator.countSetBits(256));
-		assertEquals(2, BitOperator.countSetBits(17));
-		assertEquals(5, BitOperator.countSetBits(55));
-		assertEquals(30, BitOperator.countSetBits(-2));
+		assertEquals(1, BitOperator.countSetBitsString(2));
+		assertEquals(1, BitOperator.countSetBitsString(1));
+		assertEquals(1, BitOperator.countSetBitsString(256));
+		assertEquals(2, BitOperator.countSetBitsString(17));
+		assertEquals(5, BitOperator.countSetBitsString(55));
+		assertEquals(30, BitOperator.countSetBitsString(-2));
 
 	}
 
