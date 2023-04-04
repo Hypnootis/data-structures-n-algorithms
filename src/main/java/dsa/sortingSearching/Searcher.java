@@ -1,4 +1,4 @@
-package sortingSearching;
+package dsa.sortingSearching;
 
 public class Searcher {
 
