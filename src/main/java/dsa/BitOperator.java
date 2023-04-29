@@ -14,4 +14,9 @@ public class BitOperator {
 
 		return setBits;
 	}
+
+	public static int[] bitSplitter(int number) {
+		int[] paska = {2, 3};
+		return paska;
+	}
 }
