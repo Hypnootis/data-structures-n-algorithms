@@ -19,11 +19,15 @@ public class Recursion {
         return fibonaccies;
     }
   
-    public static int recursBonacci(int n) {
-        if (n <= 1) {
-            return n;
+    public static int[] recursBonacci(int digits) {
+        int[] fibonaccies = new int[digits];
+        if (digits >= 0) {
+            fibonaccies[0] = 0;
+        } else if (digits >= 1) {
+            fibonaccies[1] = 1;
+        if (digits >= 2) {
+            return fibonaccies;
         }
-        return recursBonacci(n - 1) + recursBonacci(n - 2);
     }
-
 }
+

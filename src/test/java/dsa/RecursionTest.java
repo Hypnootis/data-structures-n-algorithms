@@ -19,7 +19,7 @@ public class RecursionTest {
 
    @Test
    void testRecursBonacci() {
-    assertArrayEquals(fibonaccies, Recursion.recursBonacci(9, false));
-    assertArrayEquals(moreFibonaccies, Recursion.recursBonacci(12, false));
+    assertArrayEquals(fibonaccies, Recursion.recursBonacci(9));
+    assertArrayEquals(moreFibonaccies, Recursion.recursBonacci(12));
    }
 }
