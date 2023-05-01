@@ -41,6 +41,9 @@ public class Recursion {
     }
 
     public static void raceBonacci(int iterations) {
+        // Example of how to use this function:
+        // Recursion.raceBonacci(40);
+        // This then logs the execution times into console
         // Execution time is measured in nanoseconds, so divisions
         // are done to get milliseconds and seconds
         // the results are casted to float for decimals
@@ -62,5 +65,43 @@ public class Recursion {
     }
     // As research tells us, time complexity increases with
     // Recursion as opposed to iteration
+
+    public static int iterativeFactorial(int start) {
+        int result = 1;
+        for (int i = start; i > 0; i--) {
+            result *= i;
+        }
+        return result;
+    }
+
+    public static int recursiveFactorial(int start) {
+        if (start == 0) {
+            return 1;
+        } else {
+            return start * recursiveFactorial(start - 1);
+        }
+    }
+
+    public static void raceFactorial(int iterations) {
+        // Look to the last race function for instructions
+        long startTime, endTime, duration;
+        startTime = System.nanoTime();
+        iterativeFactorial(iterations);
+        endTime = System.nanoTime();
+        duration = endTime - startTime;
+        System.out.println("Iterative solution execution time: " + duration +
+         " nanoseconds / " + (float)duration / 10000 +
+          " milliseconds /" + (float)duration / 1000000000 + " seconds");
+        startTime = System.nanoTime();
+        recursiveFactorial(iterations);
+        endTime = System.nanoTime();
+        duration = endTime - startTime;
+        System.out.println("Recursive solution execution time: " + duration +
+         " nanoseconds / " + (float)duration / 10000 +
+          " milliseconds / " + (float)duration / 1000000000 + " seconds");
+    }
+
+    // For factorials, the time complexity seems more negligible at small
+    // Amounts of iteration, but recursive still loses to iterative solution
 }
 

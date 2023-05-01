@@ -3,6 +3,6 @@ import dsa.Recursion;
 
 public class Main {
     public static void main(String args[]) {
-       Recursion.raceBonacci(40); 
+        Recursion.raceFactorial(40);
     }  
 }
