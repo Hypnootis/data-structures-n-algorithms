@@ -18,16 +18,49 @@ public class Recursion {
         }
         return fibonaccies;
     }
-  
+    // This function just calls the recursive solution
+    // To return an integer array
+    // This obviously affects execution time, but
+    // It is done similarly in the iterational solution
+    // ¯\_(ツ)_/¯
     public static int[] recursBonacci(int digits) {
         int[] fibonaccies = new int[digits];
-        if (digits >= 0) {
-            fibonaccies[0] = 0;
-        } else if (digits >= 1) {
-            fibonaccies[1] = 1;
-        if (digits >= 2) {
-            return fibonaccies;
+        for (int i = 0; i < digits; i++) {
+            fibonaccies[i] = calculateFibonacci(i);
+        }
+        return fibonaccies;
+    }
+    private static int calculateFibonacci(int nthDigit) {
+        if (nthDigit == 0) {
+            return 0;
+        } else if (nthDigit == 1) {
+            return 1;
+        } else {
+            return calculateFibonacci(nthDigit - 1) + calculateFibonacci(nthDigit - 2);
         }
     }
+
+    public static void raceBonacci(int iterations) {
+        // Execution time is measured in nanoseconds, so divisions
+        // are done to get milliseconds and seconds
+        // the results are casted to float for decimals
+        long startTime, endTime, duration;
+        startTime = System.nanoTime();
+        loopBonacci(iterations, false);
+        endTime = System.nanoTime();
+        duration = endTime - startTime;
+        System.out.println("Iterative solution execution time: " + duration +
+         " nanoseconds / " + (float)duration / 10000 +
+          " milliseconds /" + (float)duration / 1000000000 + " seconds");
+        startTime = System.nanoTime();
+        recursBonacci(iterations);
+        endTime = System.nanoTime();
+        duration = endTime - startTime;
+        System.out.println("Recursive solution execution time: " + duration +
+         " nanoseconds / " + (float)duration / 10000 +
+          " milliseconds / " + (float)duration / 1000000000 + " seconds");
+    }
+    // As research tells us, time complexity increases with
+    // Recursion as opposed to iteration
 }
 
