@@ -1,4 +1,4 @@
-package dsa;
+package dsa.bitoperations;
 
 public class BitOperator {
 

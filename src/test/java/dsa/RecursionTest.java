@@ -1,11 +1,11 @@
 package dsa;
 
-import dsa.Recursion;
-
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
+
+import dsa.recursion.Recursion;
 
 
 public class RecursionTest {

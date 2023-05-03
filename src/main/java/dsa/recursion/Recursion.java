@@ -1,4 +1,4 @@
-package dsa;
+package dsa.recursion;
 
 public class Recursion {
     public static int[] loopBonacci(int digits, boolean log) {
