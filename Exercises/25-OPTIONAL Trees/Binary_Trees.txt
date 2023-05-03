@@ -1,0 +1,3 @@
+This is an optional exercise. Submitting the solution is not required.
+
+1. Create a binary tree structure. Implement a recursive and non-recursive binary tree traversal algorithms and compare their efficiency.

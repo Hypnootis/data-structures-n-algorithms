@@ -1,3 +1,7 @@
-1. Implement a singly-linked list (only head reference). The list can contain any type of items; use generic type T for the list item. 
+1. Implement a singly-linked list (only head reference). The list can contain any type of items; use generic type T for the list item. Create a driver class to test your solution. 
 
-2. Implement a doubly-linked list (head and tail reference). The list can contain any type of items; use generic type T for the list item. 
+2. Implement a refined version of a singly-linked list with head and tail references. The list can contain any type of items; use generic type T for the list item. Create a driver class to test your solution. 
+
+3. (Additional exercise, submission not required) Implement a doubly-linked list where each node contains a reference to the previous and next node in the list. 
+
+The previous pointer of the first node and the next pointer of the last node point to null. The list can contain any type of items; use generic type T for the list item. Create a driver class to test your solution. 

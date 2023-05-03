@@ -1,0 +1,5 @@
+1. Create a linked implementation of a stack (see slides) and test your solution.
+
+2. Create a vector-based implementation of a stack and test your solution. Instead of Vector class, you can also use ArrayList class. (ArrayList is unsynchronized, not thread-safe, whereas Vector is.)
+
+3. Create a linked implementation of a queue with head and tail references (see slides) and test your solution.

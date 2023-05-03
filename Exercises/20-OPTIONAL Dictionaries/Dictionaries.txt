@@ -1,0 +1,4 @@
+1. On the slides there is a custom implementation of the DictionaryInterface. However, in this exercise you can use its ready-made implementation HashMap or Hashtable.
+
+Create a program that uses Java API class HashMap or Hashtable class to implement a phone book. Names will be used as keys and numbers as values. Add methods for fetching a number and listing all names and numbers. Write a driver class to test your solution.
+

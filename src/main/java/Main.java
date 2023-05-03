@@ -1,8 +1,10 @@
-import dsa.bitoperations.BitOperator;
-import dsa.recursion.Recursion;
+import dsa.collections.Trees;
+
+import java.util.TreeSet;
 
 public class Main {
     public static void main(String args[]) {
-        Recursion.raceFactorial(40);
+       Trees.averageOfTreeSet(Trees.randomizedTreeSet(45, true), true); 
+        
     }  
 }
