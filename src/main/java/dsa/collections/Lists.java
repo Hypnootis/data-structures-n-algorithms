@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Random;
 import java.util.Collections;
 
-public class Lists {
+public class Lists<T> {
     public static LinkedList<Integer> randomizedList(int length, boolean log) {
         LinkedList<Integer> randomInts = new LinkedList<Integer>();
         Random rndInt = new Random();
@@ -40,5 +40,25 @@ public class Lists {
         }
 
         return average;
+    }
+    // Exercise 3
+    public static LinkedList<String> concatenateList(LinkedList<String> listOne, LinkedList<String> listTwo) {
+        LinkedList<String> newList = listOne;
+        for (String s : listTwo) {
+            listOne.addLast(s);
+        }
+        
+        return newList;
+    }
+    // Exercise 4
+    public static LinkedList<String> mixList(LinkedList<String> listOne, LinkedList<String> listTwo) {
+        LinkedList<String> newList = new LinkedList<String>();
+        // Assumes evenly sized lists, maybe fix this
+        for (int i = 0; i < listOne.size(); i++) {
+            newList.addLast(listOne.get(i));
+            newList.addLast((listTwo.get(i)));
+        }
+        
+        return newList;
     }
 }
