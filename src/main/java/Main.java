@@ -1,10 +1,9 @@
-import dsa.collections.Trees;
+import dsa.sortingSearching.Searcher;
 
 import java.util.TreeSet;
 
 public class Main {
     public static void main(String args[]) {
-       Trees.averageOfTreeSet(Trees.randomizedTreeSet(45, true), true); 
-        
+       Searcher.compareSeqSearch(10000); 
     }  
 }
