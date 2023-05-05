@@ -1,9 +1,7 @@
-import dsa.sortingSearching.Searcher;
-
-import java.util.TreeSet;
+import dsa.sortingSearching.BinarySearch;
 
 public class Main {
     public static void main(String args[]) {
-       Searcher.compareSeqSearch(10000); 
+       BinarySearch.compareBinarySearch(10000);
     }  
 }

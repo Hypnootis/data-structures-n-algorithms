@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Random;
 import java.util.Collections;
 
-public class Lists<T> {
+public class LinkedLists<T> {
     public static LinkedList<Integer> randomizedList(int length, boolean log) {
         LinkedList<Integer> randomInts = new LinkedList<Integer>();
         Random rndInt = new Random();

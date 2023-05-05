@@ -2,7 +2,7 @@ package dsa.sortingSearching;
 
 import java.util.Random;
 
-public class Searcher {
+public class SeqSearch {
 
     // These are my own implementations!
 
