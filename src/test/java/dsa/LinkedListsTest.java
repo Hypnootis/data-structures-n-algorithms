@@ -1,7 +1,5 @@
 package dsa;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import dsa.collections.LinkedLists;
